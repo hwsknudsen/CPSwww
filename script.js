@@ -1,10 +1,11 @@
 // JavaScript Document
 const themeToggle = document.getElementById('themeToggle');
 const body = document.body;
+const prev = document.getElementsByClassName("prev");
 
 themeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
-
+	prev.classList.toggle('dark-mode');
     // Store user preference in local storage
     if (body.classList.contains('dark-mode')) {
         localStorage.setItem('theme', 'dark-mode');
