@@ -62,6 +62,6 @@ body {
 /* Mobile map */
 @media screen and (max-width:767px) {
 iframe[src*="google"] {
-    width: 100% !important;
+    width: 95% !important;
 }
 }
