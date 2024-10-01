@@ -58,3 +58,10 @@ body {
 .dark-mode .moon-icon {
     display: inline-block;
 }
+
+/* Mobile map */
+@media screen and (max-width:767px) {
+iframe[src*="google"] {
+    width: 100% !important;
+}
+}
