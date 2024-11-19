@@ -17,6 +17,7 @@ body {
     background-color: #333;
 	position: fixed;
 	width: 100%;
+	top: 0px;
 }
 .topnav a {
     float: left;
