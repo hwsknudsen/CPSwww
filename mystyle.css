@@ -11,6 +11,14 @@ body {
   color: white;
 }
 
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 
 .topnav {
     overflow: hidden;
